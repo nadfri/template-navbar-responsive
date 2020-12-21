@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Hamburger</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><a href="">MyLogo</a></div>
+
+            <ul class="nav-ul" id="nav_ul">
+                <li>
+                    <a href="#accueil">Accueil</a>
+                </li>
+                <li>
+                    <a href="#cours">Cours</a>
+                </li>
+                <li>
+                    <a href="#tutos">Tutos</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+
+            <div class="hamburger" onclick="openHamburger(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <h1>Ma Superbe Navbar Hamburger</h1>
+
+    <article id="accueil">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, iste!</p>
+        <p>Est nam ex consectetur assumenda quaerat doloremque esse doloribus hic?</p>
+        <p>Illo dolorum, delectus inventore voluptatibus architecto rerum ex consectetur consequatur.</p>
+        <p>Ex, vero! Quo amet dolorum harum asperiores ratione. Ea, accusamus?</p>
+        <p>Non labore ut repudiandae ipsum aut, sequi nesciunt officia nulla!</p>
+        <p>Asperiores commodi quod unde perspiciatis nam amet vel quam sint.</p>
+        <p>Autem harum alias at quas ullam mollitia id eius tempora!</p>
+        <p>Tempora voluptatum qui quas quis cumque odio vel laboriosam ducimus?</p>
+        <p>Animi beatae nostrum reprehenderit sint quaerat ipsa doloremque voluptatum! Quam.</p>
+        <p>Dignissimos eum laboriosam quisquam harum iste non debitis voluptates repellat!</p>
+    </article>
+
+    <article id="cours">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, iste!</p>
+        <p>Est nam ex consectetur assumenda quaerat doloremque esse doloribus hic?</p>
+        <p>Illo dolorum, delectus inventore voluptatibus architecto rerum ex consectetur consequatur.</p>
+        <p>Ex, vero! Quo amet dolorum harum asperiores ratione. Ea, accusamus?</p>
+        <p>Non labore ut repudiandae ipsum aut, sequi nesciunt officia nulla!</p>
+        <p>Asperiores commodi quod unde perspiciatis nam amet vel quam sint.</p>
+        <p>Autem harum alias at quas ullam mollitia id eius tempora!</p>
+        <p>Tempora voluptatum qui quas quis cumque odio vel laboriosam ducimus?</p>
+        <p>Animi beatae nostrum reprehenderit sint quaerat ipsa doloremque voluptatum! Quam.</p>
+        <p>Dignissimos eum laboriosam quisquam harum iste non debitis voluptates repellat!</p>
+    </article>
+
+    <article id="tutos">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, iste!</p>
+        <p>Est nam ex consectetur assumenda quaerat doloremque esse doloribus hic?</p>
+        <p>Illo dolorum, delectus inventore voluptatibus architecto rerum ex consectetur consequatur.</p>
+        <p>Ex, vero! Quo amet dolorum harum asperiores ratione. Ea, accusamus?</p>
+        <p>Non labore ut repudiandae ipsum aut, sequi nesciunt officia nulla!</p>
+        <p>Asperiores commodi quod unde perspiciatis nam amet vel quam sint.</p>
+        <p>Autem harum alias at quas ullam mollitia id eius tempora!</p>
+        <p>Tempora voluptatum qui quas quis cumque odio vel laboriosam ducimus?</p>
+        <p>Animi beatae nostrum reprehenderit sint quaerat ipsa doloremque voluptatum! Quam.</p>
+        <p>Dignissimos eum laboriosam quisquam harum iste non debitis voluptates repellat!</p>
+    </article>
+
+    <article id="contact">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, iste!</p>
+        <p>Est nam ex consectetur assumenda quaerat doloremque esse doloribus hic?</p>
+        <p>Illo dolorum, delectus inventore voluptatibus architecto rerum ex consectetur consequatur.</p>
+        <p>Ex, vero! Quo amet dolorum harum asperiores ratione. Ea, accusamus?</p>
+        <p>Non labore ut repudiandae ipsum aut, sequi nesciunt officia nulla!</p>
+        <p>Asperiores commodi quod unde perspiciatis nam amet vel quam sint.</p>
+        <p>Autem harum alias at quas ullam mollitia id eius tempora!</p>
+        <p>Tempora voluptatum qui quas quis cumque odio vel laboriosam ducimus?</p>
+        <p>Animi beatae nostrum reprehenderit sint quaerat ipsa doloremque voluptatum! Quam.</p>
+        <p>Dignissimos eum laboriosam quisquam harum iste non debitis voluptates repellat!</p>
+    </article>
+
+    <footer>
+        &copy;NadfriJS
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, veritatis.</p>
+    </footer>
+
+
+    <script>
+        const openHamburger = element => {
+            element.classList.toggle("open");
+            nav_ul.classList.toggle("slide");
+            document.body.classList.toggle("noScroll");
+        }
+    </script>
+</body>
+
+</html>
