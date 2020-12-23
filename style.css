@@ -46,7 +46,6 @@ header a {
     padding-left: 5px;
     /*taille du texte dynamique*/
     font-size: clamp(1.5rem, 5vw, 3rem);
-    border: solid 1px red;
 }
 
 .logo a {
