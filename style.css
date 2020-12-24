@@ -34,7 +34,6 @@ header a {
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     height: 100%;
     width: 100%;
 }
@@ -45,7 +44,7 @@ header a {
     align-items: center;
     padding-left: 5px;
     /*taille du texte dynamique*/
-    font-size: clamp(1.5rem, 5vw, 3rem);
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
 }
 
 .logo a {
