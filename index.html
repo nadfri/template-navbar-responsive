@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <nav class="navbar">
             <div class="logo"><a href="">MyLogo</a></div>
 
@@ -94,7 +94,7 @@
         <p>Dignissimos eum laboriosam quisquam harum iste non debitis voluptates repellat!</p>
     </article>
 
-    <footer>
+    <footer id="footer">
         &copy;NadfriJS
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, veritatis.</p>
     </footer>
@@ -105,6 +105,16 @@
             element.classList.toggle("open");
             nav_ul.classList.toggle("slide");
             document.body.classList.toggle("noScroll");
+        };
+
+        onscroll = () => {
+            header.classList.add("shadowHeader");
+            footer.classList.add("shadowFooter");
+
+            setTimeout(() => {
+                header.classList.remove("shadowHeader");
+                footer.classList.remove("shadowFooter");
+            }, 1000);
         }
     </script>
 </body>
