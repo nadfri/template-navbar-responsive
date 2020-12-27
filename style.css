@@ -18,11 +18,11 @@ body {
 
 header {
     /*empeche de cacher le texte en dessous contrairement à fixed */
-    position: sticky;
-    top: 0;
+    background-color: #353535;
     height: 60px;
     width: 100%;
-    background-color: #353535;
+    position: sticky;
+    top: 0;
     box-shadow: 1px 4px 4px 0 #ff00002b;
     transition: box-shadow 1s;
 }
@@ -35,6 +35,9 @@ header a {
     text-decoration: none;
     color: white;
 }
+
+
+/**NAVBAR**/
 
 .navbar {
     display: flex;
@@ -160,7 +163,6 @@ footer {
 .bar1,
 .bar2,
 .bar3 {
-    display: block;
     margin-top: 6px;
     width: 35px;
     height: 6px;

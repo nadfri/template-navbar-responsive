@@ -28,7 +28,7 @@
                 </li>
             </ul>
 
-            <div class="hamburger" onclick="openHamburger(this)">
+            <div class="hamburger" id="hamburger">
                 <div class="bar1"></div>
                 <div class="bar2"></div>
                 <div class="bar3"></div>
@@ -101,8 +101,8 @@
 
 
     <script>
-        const openHamburger = element => {
-            element.classList.toggle("open");
+        hamburger.onclick = () => {
+            hamburger.classList.toggle("open");
             nav_ul.classList.toggle("slide");
             document.body.classList.toggle("noScroll");
         };
