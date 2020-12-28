@@ -9,8 +9,6 @@ body {
     padding: 0;
     background-color: #252525;
     font-family: "Roboto";
-    /*Empeche la barre de scroll de s'afficher aux animations*/
-    overflow-x: hidden;
 }
 
 
