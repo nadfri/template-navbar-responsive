@@ -190,7 +190,7 @@ footer {
 
 .noScroll {
     /*empeche le scroll sur le body via JS*/
-    overflow: hidden;
+    position: fixed;
 }
 
 
