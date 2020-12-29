@@ -190,7 +190,7 @@ footer {
 
 .noScroll {
     /*empeche le scroll sur le body via JS*/
-    position: fixed;
+    overflow: hidden;
 }
 
 
@@ -205,10 +205,9 @@ footer {
         top: 60px;
         left: -100%;
         width: 100%;
-        /*bien mettre les espaces sur calc()*/
-        height: calc(100% - 60px);
+        height: 100%;
         flex-direction: column;
-        backdrop-filter: blur(5px);
+        backdrop-filter: blur(4px);
         background-color: rgba(0, 0, 0, 0.4);
         transition: transform 0.5s ease-out;
     }
