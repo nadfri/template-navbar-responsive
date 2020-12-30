@@ -23,6 +23,8 @@ header {
     top: 0;
     box-shadow: 1px 4px 4px 0 #ff00002b;
     transition: box-shadow 1s;
+    z-index: 1;
+    /*pour rester toujours en avant-plan*/
 }
 
 .shadowHeader {
