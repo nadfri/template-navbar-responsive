@@ -90,7 +90,7 @@ header a {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 56px; /*Aulieu de 60px à cause des 4px de la progressBar
+    height: 56px; /*Aulieu de 60px à cause des 4px de la progressBar*/
     width: 100px;
     font-size: 1.5rem;
 }
