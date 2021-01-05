@@ -39,6 +39,19 @@ header a {
     color: white;
 }
 
+.progressBar-container{
+  width:100%;
+  height:4px;
+  background-color: #777777;
+}
+
+.progressBar{
+  height:100%;
+  width: 0%;
+  background-color: rgb(192, 127, 6);
+  transition: all 0.5s;
+}
+
 
 /**NAVBAR**/
 
@@ -55,7 +68,7 @@ header a {
     align-items: center;
     padding-left: 5px;
     /*taille du texte dynamique*/
-    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    font-size: clamp(1.5rem, 5vw, 2.2rem);
 }
 
 .logo a {
