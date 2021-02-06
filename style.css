@@ -14,7 +14,6 @@ body {
     font-family: "Roboto";
 }
 
-
 /**Header NavBar**/
 
 header {
@@ -51,7 +50,6 @@ header a {
     background-color: rgb(192, 127, 6);
     transition: all 0.5s;
 }
-
 
 /**NAVBAR**/
 
@@ -113,7 +111,6 @@ header a {
     }
 }
 
-
 /**Articles**/
 
 h1 {
@@ -123,6 +120,9 @@ h1 {
 }
 
 article {
+    width: 90%;
+    max-width: 900px;
+    margin:auto;
     color: #debfbf;
     margin-bottom: 50px;
     scroll-margin-top: 60px;
@@ -131,9 +131,7 @@ article {
 
 article img {
     display: block;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    width:100%;
     border-radius: 5px;
     transition: all 0.5s;
 }
@@ -144,9 +142,8 @@ article img:hover {
 }
 
 article p {
-    padding-left: 5%;
+    font-size:1.2rem;
 }
-
 
 /**Footer**/
 
@@ -161,7 +158,6 @@ footer {
 .shadowFooter {
     box-shadow: 1px -8px 7px 2px #ff51002b;
 }
-
 
 /*Icone Hamburger*/
 
@@ -178,9 +174,7 @@ footer {
     margin-top: 0;
 }
 
-.bar1,
-.bar2,
-.bar3 {
+.bar1, .bar2, .bar3 {
     margin-top: 6px;
     width: 35px;
     height: 6px;
@@ -189,9 +183,7 @@ footer {
     transition: all 0.7s;
 }
 
-.open .bar1,
-.open .bar2,
-.open .bar3 {
+.open .bar1, .open .bar2, .open .bar3 {
     background-color: rgb(192, 127, 6);
 }
 
@@ -212,7 +204,6 @@ footer {
     /*empeche le scroll sur le body via JS*/
     overflow: hidden;
 }
-
 
 /**Media Queries**/
 
@@ -244,5 +235,9 @@ footer {
     .nav-ul a:hover {
         border-radius: 0;
         animation: none;
+    }
+
+    article p{
+        font-size: 1rem;
     }
 }
